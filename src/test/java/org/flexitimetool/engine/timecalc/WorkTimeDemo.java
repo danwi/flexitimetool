@@ -6,8 +6,8 @@ import org.flexitimetool.engine.timecalc.WorkTimeCalculator;
 
 public class WorkTimeDemo {
 
-	private static final int POLL_INTERVALL = 2000;
-	private static final long THREASHOLD = 5000;
+	private static final int POLL_INTERVALL = 500;
+	private static final long THREASHOLD = POLL_INTERVALL*2;
 	private static boolean working = false;
 
 	/**
