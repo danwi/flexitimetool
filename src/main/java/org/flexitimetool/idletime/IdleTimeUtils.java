@@ -17,7 +17,7 @@ public class IdleTimeUtils {
 		}
 	}
 	
-	long getIdleTimeMillis() {
+	public long getIdleTimeMillis() {
 		return idleCalculator.getIdleTimeMillis();
 	}
 	
