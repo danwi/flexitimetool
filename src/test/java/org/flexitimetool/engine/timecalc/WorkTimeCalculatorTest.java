@@ -25,7 +25,9 @@ public class WorkTimeCalculatorTest {
 		idleTimeUtils = mock(IdleTimeUtils.class);
 		clock = mock(Clock.class);
 		when(clock.getTime()).thenReturn(TIME1);
-		wtc = new WorkTimeCalculator(idleTimeUtils, clock);
+		WorkTimeCalculatorFactory factory = new WorkTimeCalculatorFactory(
+				idleTimeUtils, clock);
+		wtc = factory.getWorkTimeCalculator();
 	}
 
 	@Test

@@ -17,7 +17,8 @@ public class WorkTimeDemo {
 	public static void main(String[] args) throws InterruptedException {
 		IdleTimeUtils idleTimeUtils = new IdleTimeUtils();
 		Clock clock = new Clock();
-		WorkTimeCalculator work = new WorkTimeCalculator(idleTimeUtils, clock);
+		WorkTimeCalculator work = new WorkTimeCalculatorFactory(idleTimeUtils,
+				clock).getWorkTimeCalculator();
 		while (null == work.getBeginTime()) {
 			Thread.sleep(POLL_INTERVALL);
 		}
