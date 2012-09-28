@@ -1,6 +1,6 @@
-package org.flexitimetool.timecalc;
+package org.flexitimetool.engine.timecalc;
 
-import org.flexitimetool.idletime.IdleTimeUtils;
+import org.flexitimetool.engine.idletime.IdleTimeUtils;
 import org.joda.time.DateTime;
 
 public class WorkTimeCalculator {

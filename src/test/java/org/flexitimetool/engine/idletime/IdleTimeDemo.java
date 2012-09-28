@@ -1,6 +1,8 @@
-package org.flexitimetool.idletime;
+package org.flexitimetool.engine.idletime;
 
 import java.text.MessageFormat;
+
+import org.flexitimetool.engine.idletime.IdleTimeUtils;
 
 
 

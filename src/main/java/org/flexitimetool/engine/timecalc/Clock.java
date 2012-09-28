@@ -1,4 +1,4 @@
-package org.flexitimetool.timecalc;
+package org.flexitimetool.engine.timecalc;
 
 import org.joda.time.DateTime;
 

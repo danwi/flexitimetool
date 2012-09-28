@@ -1,4 +1,4 @@
-package org.flexitimetool.timecalc;
+package org.flexitimetool.engine.timecalc;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -6,7 +6,7 @@ import static org.junit.Assert.assertNull;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-import org.flexitimetool.idletime.IdleTimeUtils;
+import org.flexitimetool.engine.idletime.IdleTimeUtils;
 import org.joda.time.DateTime;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package org.flexitimetool.idletime;
+package org.flexitimetool.engine.idletime;
 
 import com.sun.jna.Native;
 import com.sun.jna.Platform;

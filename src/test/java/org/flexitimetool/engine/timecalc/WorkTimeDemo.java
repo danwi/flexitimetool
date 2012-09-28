@@ -1,8 +1,8 @@
-package org.flexitimetool.timecalc;
+package org.flexitimetool.engine.timecalc;
 
-import org.flexitimetool.idletime.IdleTimeUtils;
-import org.flexitimetool.timecalc.Clock;
-import org.flexitimetool.timecalc.WorkTimeCalculator;
+import org.flexitimetool.engine.idletime.IdleTimeUtils;
+import org.flexitimetool.engine.timecalc.Clock;
+import org.flexitimetool.engine.timecalc.WorkTimeCalculator;
 
 public class WorkTimeDemo {
 
