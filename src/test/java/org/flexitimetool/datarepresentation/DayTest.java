@@ -1,17 +1,17 @@
 package org.flexitimetool.datarepresentation;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import java.util.concurrent.TimeUnit;
 
 import org.joda.time.DateTime;
-import org.joda.time.ReadableDuration;
+import org.joda.time.LocalDate;
 import org.junit.Before;
 import org.junit.Test;
 
 public class DayTest {
 
-	private static final DateTime DATE = new DateTime(2013, 5, 27, 0, 0);
+	private static final LocalDate DATE = new LocalDate(2013, 5, 27);
 	private static final long LUNCH_DURATION = TimeUnit.MINUTES.toMillis(60);
 
 	private static final long DURATION1 = TimeUnit.MINUTES.toMillis(24);

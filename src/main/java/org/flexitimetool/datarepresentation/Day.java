@@ -3,19 +3,19 @@ package org.flexitimetool.datarepresentation;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.joda.time.DateTime;
+import org.joda.time.LocalDate;
 
 public class Day {
 
-	private final DateTime date;
+	private final LocalDate date;
 	private final List<WorkPeriod> workPeriods = new LinkedList<WorkPeriod>();
 	private long lunchBreakDuration;
 
-	public Day(DateTime date) {
+	public Day(LocalDate date) {
 		this.date = date;
 	}
 	
-	public DateTime getDate() {
+	public LocalDate getDate() {
 		return date;
 	}
 	
